@@ -1,16 +1,16 @@
 # Daptify14 Tap
 
-## How do I install these formulae?
+## How do I install these casks?
 
-`brew install daptify14/tap/<formula>`
+`brew install --cask daptify14/tap/<cask>`
 
-Or `brew tap daptify14/tap` and then `brew install <formula>`.
+Or `brew tap daptify14/tap` and then `brew install --cask <cask>`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "daptify14/tap"
-brew "<formula>"
+cask "<cask>"
 ```
 
 ## Documentation
