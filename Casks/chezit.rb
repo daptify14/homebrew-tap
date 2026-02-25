@@ -3,7 +3,7 @@ cask "chezit" do
   name "chezit"
   desc "Terminal UI for chezmoi dotfile management"
   homepage "https://github.com/daptify14/chezit"
-  version "0.1.1"
+  version "0.1.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "chezit" do
   on_macos do
     on_intel do
       url "https://github.com/daptify14/chezit/releases/download/v#{version}/chezit_#{version}_darwin_amd64.tar.gz"
-      sha256 "6fc00e2db814df41016f2fb553fddcff2ba7bb24424cfbf7f5eec9a290ae05ee"
+      sha256 "ae8174d073296df068bbe06ba930e271290d3f047a14db8e437db48647445e89"
     end
     on_arm do
       url "https://github.com/daptify14/chezit/releases/download/v#{version}/chezit_#{version}_darwin_arm64.tar.gz"
-      sha256 "a15f79114ae4176efea77fff5332dd2a5cf73a7a9d7cd01d98de6e4d1d5e202c"
+      sha256 "62a2ef295c4aad62b25bf765bd42fea0157140ba4bb0f2b269396fd6d1504cae"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/daptify14/chezit/releases/download/v#{version}/chezit_#{version}_linux_amd64.tar.gz"
-      sha256 "ae11e9e973eff5439a3d8ccfd73b91bce07462ff6b2a5f468abf3698c8315a57"
+      sha256 "b46038de4093324e88dfc82c83caf0f0dd9466df0b5185c50efa7107e4713b4a"
     end
     on_arm do
       url "https://github.com/daptify14/chezit/releases/download/v#{version}/chezit_#{version}_linux_arm64.tar.gz"
-      sha256 "b276a1cb7b4271443fdf88efeecd10ba21f6af3734fb6552e64c1a70c6032e6e"
+      sha256 "66c0705f6190a982ebdd0b0150d3cf096ddd2730eb489b4950fe236351f7df7e"
     end
   end
 
